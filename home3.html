@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Daniela Picon Salas - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Daniela Picon Salas">
+  <meta name="description" content="A personal portfolio profile to showcase my projects and information.">
+  <meta name="keywords" content="portfolio, web design, front-end development">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="imgs/favicon.icon" type="image/x-icon">
+  <link rel="stylesheet" href="/css/project-card.css">
+  <link rel="stylesheet" href="/css/all-html.css">
+  <link rel="stylesheet" href="/css/text-sizes.css">
+  <link rel="stylesheet" href="/css/navbar.css">
+  <link rel="stylesheet" href="/css/about-section.css">
+  <link rel="stylesheet" href="/css/container-text.css">
+  <link rel="stylesheet" href="/css/technologies.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+<!--navbar-->
+<header>
+  <nav class="navbar">
+    <div class="brand-title" type="hidden">Portfolio</div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="#about-me-part">About Me</a></li>
+        <li><a href="#projects-part">Projects</a></li>
+        <li><a href="#technologies-part">Technologies</a></li>
+        <li><a href="#contact-part">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<!--navbar-->
+
+<!--about me section-->
+<div class="rando-box">
+  <div class="circle-container" id="about-me-part">
+    <div class="circle-aboutme">
+      <h2>About Me</h2>
+    </div>
+  </div>
+  <div class="intro-text">
+    <p>Hello, my name is Daniela Picon Salas.<br>I'm a</p>
+    <p id="changing-paragraph"></p>
+  </div>
+  <div class="about-section">
+    <div class="aboutme-container">
+      <div class="title-aboutme-container">
+        <div class="links-aboutme">
+          <ul >
+            <li>
+              <a href="https://www.linkedin.com/in/daniela-picon-salas/" class="link animate__animated animate__zoomIn">LinkedIn</a></li>
+            </li>
+            <li>
+              <a href="https://github.com/danielapsalas" class="link animate__animated animate__zoomIn">Github</a></li>
+            </li>
+            <li><a href="resume-pdf/DanielaPiconSalas.pdf" class="link animate__animated animate__zoomIn">Resume</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--about me section-->
+
+<!--projects display-->
+<div class="projects-text" id="projects-part">
+  <img src="/imgs/decorations/star.png" alt="small star image" class="star-img">
+  <h2>Projects</h2>
+  <img src="/imgs/decorations/star.png" alt="small star image" class="star-img">
+</div>
+
+<!--projects-->
+<div class="container-flex-lg-screens">
+  <!--project 1-->
+  <div class="card cards-width" style="width: 35rem;">
+    <img src="imgs/gifs/plantlister.GIF" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h4 class="card-title">Plantlister</h4>
+      <h5>What does it do?</h5>
+      <p class="card-text">Plantlister is a full-stack website dedicated to plant enthusiasts, offering a platform where a user can make/post/edit/delete ads and users,
+        variety of seeds, seedlings, plants, trees, and more</p>
+      <h5>Technologies used</h5>
+      <p class="text-decor-off tech-for-projects card-text"> Java, JSPS, Mysql, HTML, CSS, Bootstrap, Javascript</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+    <!--project 2-->
+  <div class="card cards-width" style="width: 35rem;">
+    <img src="imgs/gifs/fuelswitcheroo.GIF" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h4 class="card-title">FuelSwitcheroo</h4>
+      <h5 class="project-question">What is it?</h5>
+      <p class="card-text">
+        This project utilizes Mapbox API and The National Renewable Energy Laboratory's developer network API to search for alternative
+        fuel gas stations. It retrieves and displays information about the nearest stations using.
+      </p>
+      <h4>Fun Fact:</h4>
+      <p class="card-text">This project received two awards from RowdyHacks, a hackathoon hosted by the Univerisy of Texas at San Antonio.<br>
+        <br>My team and I (Genesis Sarabia and Travis Gomez) received two awards,
+        <br>Learners Track: 2nd Place and [MLH] Best Domain Name.
+      </p>
+      <h5 class="project-question">Technologies used</h5>
+      <p class="text-decor-off tech-for-projects card-text">Javascript, APIs, JSON, HTML, CSS, Bootstrap, JQuery</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <!--Project 3-->
+  <div class="card-width">
+    <div class="card cards-width" style="width: 35rem;">
+      <img src="imgs/gifs/weather-map2.gif" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Weathermap</h4>
+        <h5 class="project-question">What is it?</h5>
+        <p class="card-text">
+          A weather application that gives the forecast for locations around the world. The application is designed with
+          a clean and intuitive interface that allows users to quickly and easily access the information they need. The
+          application makes use of the latest weather data to provide hourly and daily forecasts for a variety of metrics,
+          including temperature, precipitation, wind speed, and humidity.
+        </p>
+        <h5 class="project-question">Technologies used</h5>
+        <p class="text-decor-off tech-for-projects card-text">JSON, AJAX, CSS, Bootsrap, JavaScript, jQuery, HTML</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <!--Project 4-->
+  <div class="card cards-width" style="width: 35rem;">
+    <img src="imgs/gifs/movie-list.GIF" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h4 class="card-title">Movies List Project</h4>
+      <h5 class="project-question">What does it do?</h5>
+      <p class="card-text">The Movies Project is a website that allows a user to add, edit, and delete movies.</p>
+      <h5 class="project-question">Technologies used</h5>
+      <p class="text-decor-off tech-for-projects card-text">Javascript, HTML, CSS, Bootstrap, Jquery</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  <!--Project 5-->
+  </div>
+    <div class="card cards-width" style="width: 35rem;">
+      <img src="imgs/gifs/coffee-project.GIF" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Coffee Project</h4>
+        <h5>What does it do?</h5>
+        <p class="card-text">The Coffee Project is a website that allows a user to add, edit, and delete coffees.</p>
+        <h5 class="project-question">Technologies used</h5>
+        <p class="text-decor-off tech-for-projects card-text">Javascript, HTML, CSS, Bootstrap, Jquery</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+</div>
+<!--End of projects-->
+
+<!--Start of technologies I know img-->
+<div class="projects-text tech-top-margin" id="technologies-part">
+  <img src="/imgs/decorations/star.png" alt="small star image" class="star-img">
+  <h2>Technologies</h2>
+  <img src="/imgs/decorations/star.png" alt="small star image" class="star-img">
+</div>
+<div class="tech-space">
+  <div class="technologies-container">
+    <div class="img-container">
+      <img src="imgs/technologies/result.png">
+    </div>
+  </div>
+</div>
+<!--End of technologies I know img-->
+
+<!--Start of contacts-->
+<div class="projects-text tech-top-margin" id="contact-part">
+  <img src="/imgs/decorations/star.png" alt="small star image" class="star-img">
+  <h2>Contact</h2>
+  <img src="/imgs/decorations/star.png" alt="small star image" class="star-img">
+</div>
+<div class="form-container tech-space form-margin-bottom">
+  <form action="https://formspree.io/f/mrgvdnql" method="POST" class="tech-space form-size">
+    <label>
+      <input type="email" name="email" placeholder="Email">
+    </label>
+    <label>
+      <textarea name="message" placeholder="Message"></textarea>
+    </label>
+    <button type="submit">Send</button>
+  </form>
+</div>
+<!--End of contacts-->
+
+<!--footer-->
+<footer class="footer">
+  <div class="footer-images">
+    <a href="https://www.linkedin.com/in/daniela-picon-salas/"><img src="imgs/svgs/linkedin.svg" alt="linkedin icon"></a>
+    <a href="https://github.com/danielapsalas"><img src="imgs/svgs/github.svg" alt="github icon"></a>
+    <a href="link3.html"><img src="imgs/svgs/resume.svg" alt="resume pdf"></a>
+  </div>
+</footer>
+<!--footer-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="/javascript/script.js" defer></script>
+</body>
+</html>

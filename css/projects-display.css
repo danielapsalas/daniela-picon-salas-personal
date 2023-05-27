@@ -1,0 +1,163 @@
+.projects-text{
+    width: 100vw; /* sets the width to 50% of the viewport width */
+    display: flex; /* enables flexbox display for the container */
+    justify-content: center; /* centers the child element horizontally */
+    align-items: center; /* centers the child element vertically */
+}
+
+.projects-text img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.star-img{
+    height: 5vh;
+    width: 5vh;
+}
+
+.projects-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.title-project-container {
+    /*border: darkorchid 2px solid;*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 5%;
+}
+
+.para-project-container{
+    /*border: #d21b1b 2px solid;*/
+}
+
+.tech-for-projects{
+    /*border: #ccb232 2px solid;*/
+}
+
+ul.text-decor-off{
+    padding: 0;
+}
+
+.button-github{
+    height: 5vh;
+    width: 20vw;
+    border-radius: 20px;
+    color: white;
+    background-color: var(--color-dark-green);
+    border: #717776;
+    margin-right: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.button-github:hover{
+    background: radial-gradient(circle, rgba(198,218,191,1) 0%, rgba(218,190,198,1) 100%);;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.para-project-container{
+    margin: 0 5% 0 5%;
+}
+
+.tech-for-projects{
+    margin: 0 5% 0 5%;
+}
+
+ul {
+    list-style: none;
+}
+
+.projects {
+    display: flex; /* enables flexbox display for the container */
+    justify-content: center; /* centers the child element horizontally */
+    align-items: center; /* centers the child element vertically */
+}
+
+.projects img{
+    height: auto; /* sets the height to 50% of the viewport height */
+    width: 80%; /* sets the width to 50% of the viewport width */
+    margin: 0 auto;
+}
+
+.links-info {
+    height: 20px; /* Adjust the height to your desired size */
+    width: auto; /* Allow the width to adjust automatically */
+    vertical-align: middle; /* Align the image vertically with the text */
+    margin-right: 5px; /* Add some margin to separate the image from the text */
+    margin-bottom: 12%;
+}
+
+.project-big-screen{
+    background-color: rgba(118, 129, 179, 0.5);
+    border-radius: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .project-big-screen{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .project-big-screenlg{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .design-container{
+        height: 40vh; /* sets the height to 50% of the viewport height */
+        width: 100vw; /* sets the width to 50% of the viewport width */
+        display: flex; /* enables flexbox display for the container */
+        justify-content: center; /* centers the child element horizontally */
+        align-items: center; /* centers the child element vertically */
+    }
+
+    .project-big-screenlg{
+        margin: 40px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    /*.projects-text{*/
+    /*    margin-top: 20%;*/
+    /*}*/
+
+    div.project-big-screen{
+        border: 10px;
+        height: 40%;
+        width: 40%;
+        margin: 20px;
+    }
+
+    .project-border p, .title-project-container{
+        margin: 60px;
+    }
+
+
+    .project-big-screenlg{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .project-big-screen{
+        flex: 0 0 calc(33.33% - 20px);
+        margin-bottom: 20px; /* Add margin between the project cards */
+    }
+
+
+}

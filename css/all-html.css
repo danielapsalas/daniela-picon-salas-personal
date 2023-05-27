@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    --color-dark-green: #717776;
+    --color-white: #ededed;
+    --color-green: rgba(174, 186, 177, 0.6);
+    --font-color: #3a3937;
+    --heading-font: 'Open Sans', sans-serif;
+    --paragraph-font: 'Work Sans', sans-serif;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #586F7C;
+    color: var(--font-color)!important;
+}

@@ -1,0 +1,106 @@
+.project-info-txt{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.projects-image{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.project-card {
+    display: flex;
+}
+
+.project-info-txt {
+    flex: 1;
+}
+
+.image-buttons-projects {
+    flex: 1;
+}
+
+.projects-text img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.star-img{
+    height: 5vh;
+    width: 5vh;
+}
+
+.projects img{
+    height: auto; /* sets the height to 50% of the viewport height */
+    width: 80%; /* sets the width to 50% of the viewport width */
+    margin: 0 auto;
+}
+
+.links-info {
+    height: 20px; /* Adjust the height to your desired size */
+    width: auto; /* Allow the width to adjust automatically */
+    vertical-align: middle; /* Align the image vertically with the text */
+    margin-right: 5px; /* Add some margin to separate the image from the text */
+    margin-bottom: 12%;
+}
+
+.projects-text{
+    width: 100vw; /* sets the width to 50% of the viewport width */
+    display: flex; /* enables flexbox display for the container */
+    justify-content: center; /* centers the child element horizontally */
+    align-items: center; /* centers the child element vertically */
+}
+
+.button-github{
+    height: 5vh;
+    width: 20vw;
+    border-radius: 20px;
+    color: white;
+    background-color: var(--color-dark-green);
+    border: #717776;
+    margin-right: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.button-github:hover{
+    background: radial-gradient(circle, rgba(198,218,191,1) 0%, rgba(218,190,198,1) 100%);;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.projects {
+    display: flex; /* enables flexbox display for the container */
+    justify-content: center; /* centers the child element horizontally */
+    align-items: center; /* centers the child element vertically */
+}
+
+ul.text-decor-off{
+    padding: 0;
+}
+
+.project-card{
+    background-color: rgba(118, 129, 179, 0.25);
+    border-radius: 25px;
+    margin: 5% 5% 5% 5%;
+}
+
+.project-info-text{
+    border: 2px pink solid;
+}
+
+.button-container{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .project-card {
+        flex-direction: column;
+    }
+}

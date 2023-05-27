@@ -1,0 +1,231 @@
+body{
+    background-color: #FFFCF7!important;
+}
+
+/*mobile small-large*/
+.brand-title{
+    /*portfolio title in navbar*/
+    font-family: var(--heading-font);
+    font-size: 10vw;
+}
+
+.links-aboutme{
+    /*links to linkedin, github, and resume*/
+    font-family: var(--heading-font);
+    font-size: 6vw;
+}
+
+.navbar-links{
+    /*navbar links for mobile*/
+    font-family: var(--paragraph-font);
+    font-size: 4vw;
+}
+
+.intro-text{
+    /*Intro to myself and javascript*/
+    font-family: var(--heading-font);
+    text-align: center;
+    font-size: 4.5vw;
+}
+
+.projects-text{
+    /*Projects section  title*/
+    font-family: var(--heading-font);
+    font-size: 5vw;
+}
+
+.title-project-container{
+    /*name of projects*/
+    margin-top: 20px;
+    font-family: var(--heading-font);
+    font-size: 5.5vw;
+}
+
+.para-project-container h4, .tech-for-projects h4{
+    /*title of projects ex. what is it? and what can a user do? and tech*/
+    font-family: var(--heading-font);
+    font-size: 4.5vw;
+    margin-top: 0;
+}
+
+.para-project-container p, .tech-for-projects p, .tech-for-projects li{
+    /*text description for projects*/
+    font-family: var(--paragraph-font);
+    font-size: 4vw;
+}
+
+.margin-space{
+    margin: 20px 20px 0 20px;
+}
+
+.project-big-screenlg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-flex-lg-screens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.card{
+    margin: 2.5rem;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    /*mobile small-large*/
+    .brand-title{
+        /*portfolio title in navbar*/
+        font-family: var(--heading-font);
+        font-size: 10vw;
+    }
+
+    .links-aboutme{
+        /*links to linkedin, github, and resume*/
+        font-family: var(--heading-font);
+        font-size: 6vw;
+    }
+
+    .navbar-links{
+        /*navbar links for mobile*/
+        font-family: var(--paragraph-font);
+        font-size: 4vw;
+    }
+
+    .intro-text{
+        /*Intro to myself and javascript*/
+        font-family: var(--heading-font);
+        text-align: center;
+        font-size: 4.5vw;
+    }
+
+    .projects-text h2{
+        /*Projects section title*/
+        font-family: var(--heading-font);
+        font-size: 6vw;
+    }
+
+    .title-project-container{
+        /*name of projects*/
+        font-family: var(--heading-font);
+        font-size: 4vw;
+    }
+
+    .para-project-container h4, .tech-for-projects h4{
+        /*title of projects ex. what is it? and what can a user do? and tech*/
+        font-family: var(--heading-font);
+        font-size: 3vw;
+    }
+
+    .para-project-container p, .tech-for-projects p, .tech-for-projects li{
+        /*text description for projects*/
+        font-family: var(--paragraph-font);
+        font-size: 2.5vw;
+    }
+
+    .navbar-links ul li {
+        font-size: 1rem;
+    }
+
+    .project-card{
+        margin: 7%;
+    }
+
+    .container-flex-lg-screens{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .card{
+        margin: 2.5rem;
+    }
+
+}
+
+.project-container h4{
+    margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .brand-title{
+        /*portfolio title in navbar*/
+        font-family: var(--heading-font);
+        font-size: 6vw;
+    }
+
+    .links-aboutme{
+        /*links to linkedin, github, and resume*/
+        font-family: var(--heading-font);
+        font-size: 3.5vw;
+    }
+
+    .navbar-links{
+        /*navbar links for mobile*/
+        font-family: var(--paragraph-font);
+        font-size: 4vw;
+    }
+
+    .intro-text{
+        /*Intro to myself and javascript*/
+        font-family: var(--heading-font);
+        text-align: center;
+        font-size: 2.5vw;
+    }
+
+    .projects-text h2{
+        /*Projects section title*/
+        font-family: var(--heading-font);
+        font-size: 4.5vw;
+    }
+
+    .title-project-container{
+        /*name of projects*/
+        font-family: var(--heading-font);
+        font-size: 3vw;
+        border:20px;
+    }
+
+    .para-project-container h4, .tech-for-projects h4{
+        /*title of projects ex. what is it? and what can a user do? and tech*/
+        font-family: var(--heading-font);
+        font-size: 2vw;
+        margin-top: 10px;
+    }
+
+    .para-project-container p, .tech-for-projects p, .tech-for-projects li{
+        /*text description for projects*/
+        font-family: var(--paragraph-font);
+        font-size: 1.5vw;
+    }
+
+    .margin-space{
+        margin: 20px;
+    }
+
+    .project-card{
+        margin: 7%;
+    }
+
+    .cards-projects{
+        width: 50%; /* Adjust the width as needed */
+        height: 50%; /* Adjust the height as needed */
+    }
+
+    .projects img{
+        height: 200px;
+        width: 200px;
+    }
+
+    .button-github{
+        height: 3vh;
+        width: 10vw;
+    }
+
+}
