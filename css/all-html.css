@@ -8,10 +8,10 @@
     --paragraph-font: 'Work Sans', sans-serif;
 }
 
-body{
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #586F7C;
-    color: var(--font-color)!important;
-}
+/*body{*/
+/*    height: 100%;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    background-color: #586F7C;*/
+/*    color: var(--font-color)!important;*/
+/*}*/

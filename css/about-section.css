@@ -6,12 +6,12 @@
     justify-content: center;
 }
 
-.intro-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+/*.intro-container{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    height: 100vh;*/
+/*}*/
 
 .aboutme-container{
     width: 100%;
@@ -28,22 +28,6 @@
     width: 100%;
     display: block;
     text-align: center;
-}
-
-.paragraph-aboutme-container{
-    height: 100px;
-    width: 100%;
-    display: block;
-    /*border: green 2px solid;*/
-    text-align: center;
-}
-
-.paragraph-container p{
-    margin-bottom: 0;
-}
-
-#changing-paragraph{
-    margin-top: 0;
 }
 
 /*Links to my linkedin, github, and resume*/
