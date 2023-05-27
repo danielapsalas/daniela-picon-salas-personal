@@ -1,135 +1,135 @@
-.technologies-container img{
-    width: 100%;
-    height: auto;
-}
+/*.technologies-container img{*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*}*/
 
-/*technologies image*/
-.img-container{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
+/*.img-container{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-content: center;*/
+/*}*/
 
-.tech-space{
-    margin: 5% 10% 10% 10%;
-}
+/*.tech-space{*/
+/*    margin: 5% 10% 10% 10%;*/
+/*}*/
 
-.tech-top-margin{
-    margin-top: 10%;
-}
+/*.tech-top-margin{*/
+/*    margin-top: 10%;*/
+/*}*/
 
+/*!*FORM for mobile*!*/
+/*!* Add some basic styles to the form container *!*/
 
-/* Add some basic styles to the form container */
+/*!* Style the form elements *!*/
+/*.form-container label {*/
+/*    display: block;*/
+/*    margin-bottom: 10px;*/
+/*}*/
 
-/* Style the form elements */
-.form-container label {
-    display: block;
-    margin-bottom: 10px;
-}
+/*.form-container input,*/
+/*.form-container textarea {*/
+/*    width: 100%;*/
+/*    padding: 10px;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 4px;*/
+/*}*/
 
-.form-container input,
-.form-container textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
+/*.form-container button {*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    padding: 10px;*/
+/*    background-color:  var(--color-dark-green);*/
+/*    color: white;*/
+/*    border: none;*/
+/*    border-radius: 4px;*/
+/*    cursor: pointer;*/
+/*}*/
 
-.form-container button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color:  var(--color-dark-green);
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
+/*.form-container button:hover {*/
+/*    background-color: var(--color-dark-green);*/
+/*}*/
 
-.form-container button:hover {
-    background-color: var(--color-dark-green);
-}
+/*!*FORM for mobile*!*/
 
+/*!*footer*!*/
+/*.footer {*/
+/*    background-color: #A1B5D8;*/
+/*    padding: 1%;*/
+/*    text-align: center;*/
+/*}*/
 
-/*footer*/
-.footer {
-    background-color: #A1B5D8;
-    padding: 1%;
-    text-align: center;
-}
+/*!* Style the footer images *!*/
+/*.footer-images a {*/
+/*    margin: .5rem;*/
+/*    display: inline-block;*/
+/*}*/
 
-/* Style the footer images */
-.footer-images a {
-    margin: .5rem;
-    display: inline-block;
-}
+/*.footer-images img {*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*}*/
 
-.footer-images img {
-    width: 20px;
-    height: 20px;
-}
+/*.footer-images a:hover{*/
+/*    border: darkolivegreen 1px solid;*/
+/*}*/
+/*!*footer*!*/
 
-.footer-images a:hover{
-    border: darkolivegreen 1px solid;
-}
-/*footer*/
+/*.projects-text{*/
+/*    background-color: #E4F0D0;*/
+/*}*/
 
-.projects-text{
-    background-color: #E4F0D0;
-}
-
-@media screen and (max-width: 768px) {
-    .card{
-        width: 24rem !important;
-    }
-}
-
-
-@media screen and (min-width: 768px) {
-
-    .technologies-container img{
-        width: 80vw;
-    }
-
-    .links-aboutme{
-        font-size: 2.5rem;
-    }
-
-    .intro-text{
-        font-size: 1.5rem;
-    }
-    .footer-images img{
-        width: 25px;
-        height: 25px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    form.tech-space.form-size{
-        width: 60vw;
-    }
-
-    input, textarea{
-        height: 60px;
-        font-size: 20px;
-    }
-
-    .margin-tech-used{
-        margin-top: 8%;
-    }
+/*@media screen and (max-width: 768px) {*/
+/*    .card{*/
+/*        width: 24rem !important;*/
+/*    }*/
+/*}*/
 
 
-    .margin-img-used{
-        margin-top: 8%;
-    }
+/*@media screen and (min-width: 768px) {*/
 
-    .margin-img-used-2{
-        margin-top: 59%;
-    }
+/*    .technologies-container img{*/
+/*        width: 80vw;*/
+/*    }*/
+
+/*    .links-aboutme{*/
+/*        font-size: 2.5rem;*/
+/*    }*/
+
+/*    .intro-text{*/
+/*        font-size: 1.5rem;*/
+/*    }*/
+/*    .footer-images img{*/
+/*        width: 25px;*/
+/*        height: 25px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (min-width: 1024px) {*/
+/*    form.tech-space.form-size{*/
+/*        width: 60vw;*/
+/*    }*/
+
+/*    input, textarea{*/
+/*        height: 60px;*/
+/*        font-size: 20px;*/
+/*    }*/
+
+/*    .margin-tech-used{*/
+/*        margin-top: 8%;*/
+/*    }*/
 
 
-    .links-aboutme{
-        font-size: 3rem;
-    }
+/*    .margin-img-used{*/
+/*        margin-top: 8%;*/
+/*    }*/
 
-}
+/*    .margin-img-used-2{*/
+/*        margin-top: 59%;*/
+/*    }*/
+
+
+/*    .links-aboutme{*/
+/*        font-size: 3rem;*/
+/*    }*/
+
+/*}*/
