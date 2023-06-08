@@ -12,6 +12,10 @@ body{
     background-color: #FFFCF7!important;
 }
 
+body{
+    margin-inline: auto;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
