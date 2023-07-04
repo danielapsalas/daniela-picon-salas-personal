@@ -413,4 +413,14 @@ body{
         font-size: 3rem;
     }
 
+    .circle-container {
+        float: left;
+        width: 50%;
+    }
+
+    .about-section {
+        float: left;
+        width: 50%;
+    }
+
 }
