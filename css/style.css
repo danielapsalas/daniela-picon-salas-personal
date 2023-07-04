@@ -93,6 +93,7 @@ body{
     width: 100%;
     display: block;
     text-align: center;
+    margin-bottom: 5%;
 }
 
 #changing-paragraph{
@@ -131,6 +132,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 5% 0 5% 0;
 }
 
 .circle-aboutme{
@@ -277,6 +279,7 @@ body{
 .projects-text{
     background-color: #E4F0D0;
 }
+
 @media screen and (min-width: 768px) {
     /*mobile small-large*/
     .brand-title{
@@ -353,6 +356,11 @@ body{
 
     .card{
         width: 24rem !important;
+    }
+
+    .circle-aboutme{
+        width: 250px;
+        height: 250px;
     }
 }
 
