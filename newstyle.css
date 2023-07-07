@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    --color-dark-green: #717776;
+    --color-white: #ededed;
+    --color-green: rgba(174, 186, 177, 0.6);
+    --font-color: #3a3937;
+    --heading-font: 'Open Sans', sans-serif;
+    --paragraph-font: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #BBD1EA!important;
+    margin-inline: auto;
+}
+
+html{
+    font-size: 16px;
+}
+
+span .navbar-color{
+    background-color: #507DBC!important;
+    color: white;
+}
+
+.text-color-grey{
+    color: #343a40!important;
+}
+
+.text-color-white{
+    color: white!important;
+}
+
+.intro-text{
+    /*Intro to myself and javascript*/
+    font-family: var(--heading-font);
+    text-align: center;
+    font-size: 2rem;
+    border: 2px pink solid;
+}
+
+.links-aboutme{
+    display: flex;
+    justify-content: center;
+    border: 2px red solid;
+}
+
+.links-aboutme li{
+    list-style-type: none;
+}
+
+.links-aboutme ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.links-aboutme li a {
+    text-decoration: none;
+    color: var(--font-color);
+    padding: 1em;
+    display: block;
+}
+
+.circle-aboutme{
+    border: 2px blue solid;
+    /*background-color: #4F6D7A;*/
+    width: 80%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.aboutme-box{
+    border: 2px green solid;
+}
+
+.container {
+    width: 80%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.intro{
+    background-color: #A1C6EA;
+    color: black;
+    padding: 5% 0;
+}
+
+.intro__text {
+    width: 50%;
+}
+
+.container-flex-lg-screens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.card {
+    margin: 2.5rem;
+}
