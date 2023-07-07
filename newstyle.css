@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: #BBD1EA!important;
+    background-color: #f8ebe3 !important;
     margin-inline: auto;
 }
 
@@ -19,8 +19,7 @@ html{
 }
 
 span .navbar-color{
-    background-color: #507DBC!important;
-    color: white;
+    background-color: white!important;
 }
 
 .text-color-grey{
@@ -28,21 +27,23 @@ span .navbar-color{
 }
 
 .text-color-white{
-    color: white!important;
+    color: #4f4846!important;
 }
 
 .intro-text{
     /*Intro to myself and javascript*/
     font-family: var(--heading-font);
     text-align: center;
-    font-size: 2rem;
-    border: 2px pink solid;
+    font-size: 1.75rem;
+    border: 2px #d641ff solid;
+    margin-top: 5%;
 }
 
 .links-aboutme{
     display: flex;
     justify-content: center;
     border: 2px red solid;
+    font-size: 1.50rem;
 }
 
 .links-aboutme li{
@@ -62,17 +63,37 @@ span .navbar-color{
     display: block;
 }
 
-.circle-aboutme{
-    border: 2px blue solid;
-    /*background-color: #4F6D7A;*/
-    width: 80%;
-    max-width: 750px;
-    margin: 0 auto;
+.aboutme-box {
+    background-color: #4f4846;
+    height: 50vh; /* Adjust the value as needed */
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.aboutme-box{
-    border: 2px green solid;
+.aboutme-box-2 {
+    width: 100%; /* Ensure the container expands to fit the image */
+    height: 100%; /* Ensure the container expands to fit the image */
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    position: relative;
+    top: 20px; /* Adjust the value to move the element vertically */
+    left: 20px; /* Adjust the value to move the element horizontally */
+    background-image: url("imgs/newimgofme.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
 }
+
+/*.aboutme-box-2 img {*/
+/*    max-width: 100%;*/
+/*    max-height: 100%;*/
+/*    width: auto;*/
+/*    height: auto;*/
+/*}*/
+
 
 .container {
     width: 80%;
@@ -81,7 +102,7 @@ span .navbar-color{
 }
 
 .intro{
-    background-color: #A1C6EA;
+    background-color: #E8CEBF;
     color: black;
     padding: 5% 0;
 }
@@ -98,5 +119,10 @@ span .navbar-color{
 }
 
 .card {
-    margin: 2.5rem;
+    margin: 2em 3em;
+}
+
+.btn-green{
+    background-color: #266150!important;
+    color: white!important;
 }
