@@ -72,7 +72,7 @@ span .navbar-color{
 }
 
 .aboutme-box-2 {
-    width: 100%; /* Ensure the container expands to fit the image */
+    max-width: 100%; /* Ensure the container expands to fit the image */
     height: 100%; /* Ensure the container expands to fit the image */
     position: relative;
     top: 5%; /* Adjust the value to move the element vertically */
@@ -145,7 +145,7 @@ span .navbar-color{
 }
 
 .img-container img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 
