@@ -8,6 +8,14 @@
     --paragraph-font: 'Work Sans', sans-serif;
 }
 
+.montserrat-font{
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+.karla-font{
+    font-family: 'Karla', sans-serif;
+}
+
 body{
     background-color: #f8ebe3 !important;
     margin-inline: auto;
@@ -124,7 +132,18 @@ span .navbar-color{
 
 .card {
     margin: 2em 3em;
-    ba
+}
+
+.title-sections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-sections h2{
+    color:  #4f4846;
+    font-size: 3rem;
+    margin: 1em;
 }
 
 .btn-green{
@@ -171,5 +190,9 @@ span .navbar-color{
 
     .links-aboutme{
         font-size: 1.10rem;
+    }
+
+    .title-sections h2{
+        font-size: 2rem;
     }
 }
