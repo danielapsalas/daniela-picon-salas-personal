@@ -16,7 +16,7 @@
 </head>
 <body>
 <span>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-color">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-color sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand text-color-white" href="#">Daniela Picon Salas</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -174,6 +174,25 @@
     </div>
   </div>
 </div>
+
+<!--Contact me-->
+<div class="contact-me d-flex justify-content-center align-items-center">
+  <div class="contact-me-container col-lg-6 col-md-8 col-sm-10 col-xs-8">
+    <form action="https://formspree.io/f/mrgvdnql" method="POST" class="tech-space form-size">
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" name="email" class="form-control" id="email" placeholder="Email">
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea name="message" class="form-control" id="message" placeholder="Message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 <script src="javascript/script.js" defer></script>
 </body>
 </html>

@@ -19,7 +19,12 @@ body{
 /*}*/
 
 span .navbar-color{
-    background-color: white!important;
+    background-color: #4f4846!important;
+}
+
+nav{
+    height: 4.5em;
+
 }
 
 .text-color-grey{
@@ -27,7 +32,7 @@ span .navbar-color{
 }
 
 .text-color-white{
-    color: #4f4846!important;
+    color: #F6F2E7 !important;
 }
 
 .intro-text{
@@ -147,6 +152,11 @@ span .navbar-color{
 .img-container img {
     max-width: 80%;
     height: auto;
+}
+
+.contact-me form{
+    background-color: #f8ebe3!important;
+    /*width: 20em;*/
 }
 
 @media (max-width: 576px) {
