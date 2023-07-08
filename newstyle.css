@@ -22,10 +22,10 @@ span .navbar-color{
     background-color: #4f4846!important;
 }
 
-nav{
-    height: 4.5em;
+/*nav{*/
+/*    height: 4.5em;*/
 
-}
+/*}*/
 
 .text-color-grey{
     color: #343a40!important;
@@ -124,11 +124,12 @@ nav{
 
 .card {
     margin: 2em 3em;
+    ba
 }
 
 .btn-green{
     background-color: #266150!important;
-    color: white!important;
+    color: #F6F2E7!important;
 }
 
 .intro-text-container{
